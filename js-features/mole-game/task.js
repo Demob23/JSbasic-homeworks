@@ -16,11 +16,11 @@ for (holeIndex = 1; holeIndex < 10; holeIndex++) {
     if (counterHits >= 10) {
       hit.textContent = 0;
       miss.textContent = 0;
-      alert('Вы победили')
+      alert('Вы победили');
     } else if (counterMisses >= 5) {
       hit.textContent = 0;
       miss.textContent = 0;
-      alert('Вы проиграли :C')
+      alert('Вы проиграли :C');
     };
 });
 }
